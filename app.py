@@ -85,6 +85,10 @@ else:
 
 # Header and summary
 st.title("📦 Courier Route Workload Dashboard")
+st.markdown("""
+> ⚠️ _Note: This app uses simulated routes and fake ZIP data.  
+> It’s not meant for real-world operations. Just a personal project to learn Streamlit, explore data visualization, and prototype route logic._
+""")
 st.markdown("This dashboard lets you explore route coverage and workload across the Philadelphia region.")
 
 # Summary stats
