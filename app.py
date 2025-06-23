@@ -153,7 +153,7 @@ view_state = pdk.ViewState(
 st.pydeck_chart(pdk.Deck(
     layers=[heat_layer],
     initial_view_state=view_state,
-    map_style="mapbox://styles/mapbox/light-v9"
+    map_style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
 ))
 
 # Bar chart
